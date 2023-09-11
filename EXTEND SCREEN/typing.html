@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Challenge</title>
+    <link rel="stylesheet" href="sc.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Typing Challenge</a></li>
+                <li><a href="main_screen.html">Main Screen</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="typing-challenge">
+            <div class="typing-container">
+                <h1>Typing Challenge</h1>
+                <p>Test your typing speed with our fun challenge:</p>
+                <p id="sentence">The quick brown fox jumps over the lazy dog.</p>
+                <input type="text" id="userInput" placeholder="Start typing...">
+                <button id="startButton">Start</button>
+                <p id="result"></p>
+                <!-- Link to go back to the Home screen -->
+                <a href="index.html" class="cta-button">Go Back to Home</a>
+                <!-- Add a container for the WPM counter -->
+<div class="wpm-container">
+    <p>Your typing speed: <span id="wpm">0.00</span> WPM</p>
+</div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Website Name</p>
+    </footer>
+    <script src="typing.js"></script>
+</body>
+</html>
